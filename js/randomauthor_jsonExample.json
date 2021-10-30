@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Madame",
+        "first": "Hannelore",
+        "last": "Gaillard"
+      },
+      "location": {
+        "street": {
+          "number": 7577,
+          "name": "Rue Abel-Ferry"
+        },
+        "city": "Les Verrières",
+        "state": "Bern",
+        "country": "Switzerland",
+        "postcode": 2243,
+        "coordinates": {
+          "latitude": "-54.0878",
+          "longitude": "115.1862"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "hannelore.gaillard@example.com",
+      "login": {
+        "uuid": "65d4c573-9a4e-4c45-aabf-42ef9d2cfd7d",
+        "username": "yellowfish245",
+        "password": "pillow",
+        "salt": "Qq6Xpx6Q",
+        "md5": "60127a6865c6516ad148de4c4771712f",
+        "sha1": "5cea814ff6bfaa06d46cab2fb74e4f9f5f0962dc",
+        "sha256": "4dd482ec0b8e8d6970416375d808ff2d7ba12e4bac4d1684aa43607059d6abf0"
+      },
+      "dob": {
+        "date": "1994-02-03T07:38:57.381Z",
+        "age": 27
+      },
+      "registered": {
+        "date": "2019-09-17T03:33:41.271Z",
+        "age": 2
+      },
+      "phone": "078 984 84 54",
+      "cell": "076 079 02 02",
+      "id": {
+        "name": "AVS",
+        "value": "756.4617.2061.66"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/56.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/56.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/56.jpg"
+      },
+      "nat": "CH"
+    }
+  ],
+  "info": {
+    "seed": "bb6ecad93ac9b110",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}
