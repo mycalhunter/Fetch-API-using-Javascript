@@ -4,7 +4,25 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css"/>
 </head>
 <body>
+    <div id="expand">
+        <h2>Details <span>[Click to Expand]</span></h2>
+        <div id="details">
+            <p>In this repo:</p>
+            <ul>
+                <li>Data is fetched using an API URL (<a id="url"></a>)</li>
+                <li>JSON Response is parsed to javascript object</li>
+                <li>Objects are iterated and styled for end-user</li>
+            </ul>
+        </div>
+    </div>
     <ul id="authors"></ul>
+    <footer>
+        <ul id="footer">
+            <li>Copyright &copy;</li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js" type="text/javascript" async></script>
     <script src="./js/fetch.js" type="text/javascript" async></script>
 </body>
 </html>

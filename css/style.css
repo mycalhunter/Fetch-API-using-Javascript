@@ -7,25 +7,20 @@ html {
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 12px;
+  margin: 0;
 }
 
-h1 {
-  border-bottom: 2px solid lightgrey;
-  padding-bottom: 5px;
-  width: fit-content;
-  margin: auto;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: lightgrey;
+h2 {
+    margin: 0;
 }
 
 ul#authors {
-  list-style-type: none;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
 }
 
 ul#authors li {
@@ -34,14 +29,63 @@ ul#authors li {
   margin: 10px;
   box-shadow: 2px 2px 2px #f2f2f2;
   transition-delay: 100ms;
+  border-radius: 3px;
 }
 
 ul#authors li p {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.90em;
 }
 
 ul#authors li a {
   text-decoration: none;
+}
+
+ul#authors img {
+    border-radius: 3px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: #252525;
+    color: white;
+    margin: 24px 0 0 0;
+    padding: 6px 0;
+}
+footer ul {
+    margin: 0;
+    list-style-type: none;
+    padding-top: 3px;
+}
+
+.pill {
+    background-color: #f6f6f6;
+    border-radius: 50px;
+    padding: 8px 5px;
+}
+
+#expand {
+    background-color: #ffffef;
+    padding: 1em 2em;
+    cursor: pointer;
+    border-bottom: 1px solid #ececec;
+}
+
+#expand h2 span {
+    font-size: 10px;
+    color: grey;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+#expand ul {
+    list-style-type: lower-roman;
+}
+
+#details {
+    display: none;
+    padding-bottom: 5px;
 }
