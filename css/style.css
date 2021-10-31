@@ -23,6 +23,24 @@ ul#authors {
     text-align: center;
 }
 
+@media (max-width:990px) {
+    ul#authors {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:750px){
+    ul#authors {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:540px) {
+    ul#authors {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 ul#authors li {
   padding: 10px;
   border: 1px solid #ececec;
