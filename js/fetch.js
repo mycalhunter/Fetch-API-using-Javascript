@@ -21,7 +21,7 @@ fetch(url)
             // create elements for list item
             let li = createNode('li');
             let img = createNode('img');
-            let p = createNode('p');
+            let name = createNode('p');
             let email = createNode('a');
             let location = createNode('p');
 
@@ -29,7 +29,7 @@ fetch(url)
             img.src = author.picture.medium;
 
             // Author Name
-            p.innerHTML = `${author.name.first} ${author.name.last}`;
+            name.innerHTML = `${author.name.first} ${author.name.last}`;
 
             // Author Email
             email.href = `mailto:${author.email}`;
