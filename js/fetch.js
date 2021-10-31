@@ -44,7 +44,7 @@ fetch(url)
             // append complete list items to html ul element
             append(ul, li);
             append(li, img);
-            append(li, p);
+            append(li, name);
             append(li, email);
             append(li, location);
         })
