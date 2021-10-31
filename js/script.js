@@ -1,6 +1,3 @@
-$('#expand').click(function (event) {
-
+$('#expand').click(function () {
 	$('#details').toggle("medium");
-	console.log(event.target);
-
 });
